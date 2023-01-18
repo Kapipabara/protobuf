@@ -1,0 +1,16 @@
+// Инструмент
+
+syntax = "proto3";
+
+
+
+message Instrument {     
+    int32 Id = 1;  // Идентификатор инструмента;
+	string torgKod = 2; //Торговый код;
+    string tipInstr = 3; //Тип инструмента;
+    string shortName = 4; //Краткое наименование;
+	string shortName_eng = 5; //Краткое наименование (eng);
+	string fullName = 6; //Полное наименование;
+	string fullName_eng = 7; //Полное наименование (eng);
+	string firstDayTorg = 8; //Первый день торгов;
+  }
